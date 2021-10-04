@@ -7,7 +7,7 @@ struct Array
 	int size;
 	int length;
 };
-void Display(struct Array* arr)
+void Display(struct Array* arr) //Function to Display the array when called in main function
 {
 	int i;
 	cout << "the elements of the array is " << endl;
